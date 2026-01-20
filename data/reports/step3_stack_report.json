@@ -1,0 +1,23 @@
+{
+  "n": 7422,
+  "baselines_full": {
+    "logloss_market": 0.9678818751508087,
+    "logloss_dc": 1.0442501113436813,
+    "logloss_residual": 0.9636041333250998
+  },
+  "train": {
+    "n": 5938,
+    "logloss": 0.9628425599428215
+  },
+  "test": {
+    "n": 1484,
+    "logloss": 0.9670725192234854
+  },
+  "test_improvement_vs_market": 0.0008093559273233408,
+  "trained_at_utc": "2026-01-20T00:07:31.935070Z",
+  "features_version": "understat_v5",
+  "notes": [
+    "Stacking multinomiale: combina market+DC+residual e poche meta-feature (entropie/differenze).",
+    "Split random (MVP). Per walk-forward usa step1."
+  ]
+}

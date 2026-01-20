@@ -1,0 +1,1431 @@
+{
+  "metrics": {
+    "train": {
+      "n": 5937,
+      "logloss_market": 0.9690655747933566,
+      "logloss_model": 0.9646051798479993,
+      "brier_market": 0.5761880884632123,
+      "brier_model": 0.5734585991263171
+    },
+    "test": {
+      "n": 1485,
+      "logloss_market": 0.963149467893027,
+      "logloss_model": 0.9600227519936384,
+      "brier_market": 0.5722874462572756,
+      "brier_model": 0.5699007564714389,
+      "logloss_improvement_vs_market": 0.0031267158993886213,
+      "picks_n": 1093,
+      "clv_avg": -0.004096456343676351,
+      "roi_per_bet": 0.06855443732845377
+    },
+    "model_used": "stack",
+    "split": {
+      "train_n": 5937,
+      "test_n": 1485,
+      "cutoff_kickoff_utc": "2025-02-08T17:30:00Z"
+    },
+    "generated_at_utc": "2026-01-20T00:07:57.412109Z"
+  },
+  "picks_sample": [
+    {
+      "match_id": "understat:27203",
+      "sel": "AWAY",
+      "edge": 0.03176594176600356,
+      "clv": 0.0,
+      "profit": 0.7
+    },
+    {
+      "match_id": "understat:27205",
+      "sel": "HOME",
+      "edge": 0.08658015510074624,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28232",
+      "sel": "AWAY",
+      "edge": 0.05178349229320167,
+      "clv": 0.0,
+      "profit": 1.15
+    },
+    {
+      "match_id": "understat:27204",
+      "sel": "HOME",
+      "edge": 0.026737772036620977,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27930",
+      "sel": "DRAW",
+      "edge": 0.08687862495479864,
+      "clv": 0.0,
+      "profit": 2.5
+    },
+    {
+      "match_id": "understat:27208",
+      "sel": "DRAW",
+      "edge": 0.052793180610218315,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28228",
+      "sel": "AWAY",
+      "edge": 0.025054716760053997,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28230",
+      "sel": "DRAW",
+      "edge": 0.05513698415420357,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27593",
+      "sel": "DRAW",
+      "edge": 0.03811822786141722,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27597",
+      "sel": "AWAY",
+      "edge": 0.04329905943724266,
+      "clv": 0.04712041884816758,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27600",
+      "sel": "AWAY",
+      "edge": 0.06327221052285437,
+      "clv": 0.09826589595375719,
+      "profit": 0.73
+    },
+    {
+      "match_id": "understat:27202",
+      "sel": "HOME",
+      "edge": 0.03973835103268608,
+      "clv": 0.0,
+      "profit": 0.6000000000000001
+    },
+    {
+      "match_id": "understat:27598",
+      "sel": "HOME",
+      "edge": 0.028864779905523497,
+      "clv": 0.006944444444444451,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28235",
+      "sel": "AWAY",
+      "edge": 0.1099662980221695,
+      "clv": 0.0,
+      "profit": 0.6200000000000001
+    },
+    {
+      "match_id": "understat:27206",
+      "sel": "AWAY",
+      "edge": 0.05756264644131959,
+      "clv": 0.0,
+      "profit": 0.55
+    },
+    {
+      "match_id": "understat:27596",
+      "sel": "HOME",
+      "edge": 0.040957625453235,
+      "clv": 0.0,
+      "profit": 0.48
+    },
+    {
+      "match_id": "understat:27210",
+      "sel": "HOME",
+      "edge": 0.04262116498846058,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:26748",
+      "sel": "AWAY",
+      "edge": 0.05757027129802372,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27602",
+      "sel": "HOME",
+      "edge": 0.04874909718620468,
+      "clv": -0.038888888888888924,
+      "profit": 0.8
+    },
+    {
+      "match_id": "understat:28241",
+      "sel": "DRAW",
+      "edge": 0.020507483099137525,
+      "clv": 0.0,
+      "profit": 2.3
+    },
+    {
+      "match_id": "understat:26843",
+      "sel": "DRAW",
+      "edge": 0.04216028509637748,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27213",
+      "sel": "DRAW",
+      "edge": 0.02323372432252263,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:26846",
+      "sel": "AWAY",
+      "edge": 0.04186504795565482,
+      "clv": 0.0,
+      "profit": 0.33000000000000007
+    },
+    {
+      "match_id": "understat:27603",
+      "sel": "DRAW",
+      "edge": 0.03467676901935485,
+      "clv": -0.08842105263157893,
+      "profit": 3.75
+    },
+    {
+      "match_id": "understat:27932",
+      "sel": "DRAW",
+      "edge": 0.02797469568780922,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27937",
+      "sel": "HOME",
+      "edge": 0.02912039496372354,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27938",
+      "sel": "AWAY",
+      "edge": 0.07539024932057992,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:26842",
+      "sel": "HOME",
+      "edge": 0.028009469084372518,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:26845",
+      "sel": "AWAY",
+      "edge": 0.024639383886536304,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:26849",
+      "sel": "AWAY",
+      "edge": 0.0816576974487222,
+      "clv": 0.0,
+      "profit": 0.5
+    },
+    {
+      "match_id": "understat:27220",
+      "sel": "AWAY",
+      "edge": 0.06087172187200651,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28238",
+      "sel": "HOME",
+      "edge": 0.04567620640446235,
+      "clv": 0.0,
+      "profit": 0.25
+    },
+    {
+      "match_id": "understat:27609",
+      "sel": "HOME",
+      "edge": 0.020977726771944094,
+      "clv": -0.1254752851711027,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:26844",
+      "sel": "DRAW",
+      "edge": 0.027849825082712276,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27931",
+      "sel": "AWAY",
+      "edge": 0.05168155134973862,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28245",
+      "sel": "HOME",
+      "edge": 0.027625324100176374,
+      "clv": 0.0,
+      "profit": 0.55
+    },
+    {
+      "match_id": "understat:27608",
+      "sel": "HOME",
+      "edge": 0.03245886131398357,
+      "clv": 0.0,
+      "profit": 0.33000000000000007
+    },
+    {
+      "match_id": "understat:27216",
+      "sel": "HOME",
+      "edge": 0.04342515195081231,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28237",
+      "sel": "AWAY",
+      "edge": 0.0594105300974227,
+      "clv": 0.0,
+      "profit": 0.5
+    },
+    {
+      "match_id": "understat:27611",
+      "sel": "DRAW",
+      "edge": 0.07537341736710645,
+      "clv": -0.07142857142857142,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27604",
+      "sel": "DRAW",
+      "edge": 0.05237266809945512,
+      "clv": -0.0285714285714286,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27607",
+      "sel": "DRAW",
+      "edge": 0.0439187119399006,
+      "clv": -0.03125000000000003,
+      "profit": 2.2
+    },
+    {
+      "match_id": "understat:28239",
+      "sel": "AWAY",
+      "edge": 0.09651418545369284,
+      "clv": 0.0,
+      "profit": 0.5800000000000001
+    },
+    {
+      "match_id": "understat:27935",
+      "sel": "DRAW",
+      "edge": 0.05262386529462032,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27215",
+      "sel": "AWAY",
+      "edge": 0.030206726414444773,
+      "clv": 0.0,
+      "profit": 0.95
+    },
+    {
+      "match_id": "understat:28243",
+      "sel": "HOME",
+      "edge": 0.027518095257490494,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28244",
+      "sel": "AWAY",
+      "edge": 0.11250415673348935,
+      "clv": 0.0,
+      "profit": 0.6200000000000001
+    },
+    {
+      "match_id": "understat:26850",
+      "sel": "DRAW",
+      "edge": 0.0454185891702954,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27606",
+      "sel": "AWAY",
+      "edge": 0.026107351336588147,
+      "clv": -0.02439024390243894,
+      "profit": 1.0499999999999998
+    },
+    {
+      "match_id": "understat:27217",
+      "sel": "HOME",
+      "edge": 0.03179817704843746,
+      "clv": 0.0,
+      "profit": 0.73
+    },
+    {
+      "match_id": "understat:27934",
+      "sel": "AWAY",
+      "edge": 0.052354563979560564,
+      "clv": 0.0,
+      "profit": 1.0499999999999998
+    },
+    {
+      "match_id": "understat:27610",
+      "sel": "AWAY",
+      "edge": 0.03380530175074653,
+      "clv": -0.06666666666666662,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28242",
+      "sel": "AWAY",
+      "edge": 0.05987704120442633,
+      "clv": 0.0,
+      "profit": 1.7000000000000002
+    },
+    {
+      "match_id": "understat:27605",
+      "sel": "DRAW",
+      "edge": 0.03712414139353859,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27214",
+      "sel": "HOME",
+      "edge": 0.03134514234345098,
+      "clv": 0.0,
+      "profit": 0.21999999999999997
+    },
+    {
+      "match_id": "understat:27944",
+      "sel": "HOME",
+      "edge": 0.04208123342732106,
+      "clv": 0.0,
+      "profit": 1.0
+    },
+    {
+      "match_id": "understat:27615",
+      "sel": "DRAW",
+      "edge": 0.05568118497703434,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28246",
+      "sel": "AWAY",
+      "edge": 0.030062968498257236,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27223",
+      "sel": "HOME",
+      "edge": 0.04130989178311162,
+      "clv": 0.0,
+      "profit": 0.6699999999999999
+    },
+    {
+      "match_id": "understat:27231",
+      "sel": "HOME",
+      "edge": 0.028939590020687578,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27616",
+      "sel": "AWAY",
+      "edge": 0.06348776803823675,
+      "clv": -0.0994764397905759,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27619",
+      "sel": "AWAY",
+      "edge": 0.06935272253527947,
+      "clv": -0.05988023952095801,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27945",
+      "sel": "DRAW",
+      "edge": 0.09973378303942401,
+      "clv": 0.0,
+      "profit": 3.2
+    },
+    {
+      "match_id": "understat:27946",
+      "sel": "DRAW",
+      "edge": 0.026630644458704555,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27947",
+      "sel": "DRAW",
+      "edge": 0.031794361776388835,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:26852",
+      "sel": "DRAW",
+      "edge": 0.04550881969330159,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:26853",
+      "sel": "HOME",
+      "edge": 0.027132996230951334,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:26861",
+      "sel": "AWAY",
+      "edge": 0.08785969176027297,
+      "clv": 0.0,
+      "profit": 0.55
+    },
+    {
+      "match_id": "understat:28248",
+      "sel": "AWAY",
+      "edge": 0.04468215113079543,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27618",
+      "sel": "AWAY",
+      "edge": 0.0455819635768584,
+      "clv": -0.07499999999999996,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27942",
+      "sel": "DRAW",
+      "edge": 0.042969613827541026,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27225",
+      "sel": "HOME",
+      "edge": 0.025430050426351658,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28251",
+      "sel": "DRAW",
+      "edge": 0.0527944288056601,
+      "clv": 0.0,
+      "profit": 2.3
+    },
+    {
+      "match_id": "understat:27614",
+      "sel": "HOME",
+      "edge": 0.040706573246709454,
+      "clv": 0.04724409448818902,
+      "profit": 0.27
+    },
+    {
+      "match_id": "understat:28252",
+      "sel": "AWAY",
+      "edge": 0.09940091342194135,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27620",
+      "sel": "AWAY",
+      "edge": 0.0365943640889525,
+      "clv": 0.022222222222222143,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27613",
+      "sel": "AWAY",
+      "edge": 0.022993627294759178,
+      "clv": 0.07894736842105259,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28250",
+      "sel": "AWAY",
+      "edge": 0.030391262441234412,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27228",
+      "sel": "HOME",
+      "edge": 0.07539119146717599,
+      "clv": 0.0,
+      "profit": 0.29000000000000004
+    },
+    {
+      "match_id": "understat:28247",
+      "sel": "AWAY",
+      "edge": 0.06632407673719709,
+      "clv": 0.0,
+      "profit": 0.95
+    },
+    {
+      "match_id": "understat:28253",
+      "sel": "HOME",
+      "edge": 0.03271065755017122,
+      "clv": 0.0,
+      "profit": 0.3799999999999999
+    },
+    {
+      "match_id": "understat:27940",
+      "sel": "HOME",
+      "edge": 0.02847372751820798,
+      "clv": 0.0,
+      "profit": 0.30000000000000004
+    },
+    {
+      "match_id": "understat:27612",
+      "sel": "AWAY",
+      "edge": 0.0479817828317598,
+      "clv": -0.05732484076433126,
+      "profit": 0.5700000000000001
+    },
+    {
+      "match_id": "understat:27227",
+      "sel": "DRAW",
+      "edge": 0.021549186946716148,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27943",
+      "sel": "AWAY",
+      "edge": 0.028717902143768237,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27621",
+      "sel": "AWAY",
+      "edge": 0.03617982075125925,
+      "clv": -0.036842105263157815,
+      "profit": 0.8999999999999999
+    },
+    {
+      "match_id": "understat:28254",
+      "sel": "AWAY",
+      "edge": 0.06277054946679705,
+      "clv": 0.0,
+      "profit": 0.7
+    },
+    {
+      "match_id": "understat:27230",
+      "sel": "HOME",
+      "edge": 0.039647986191415185,
+      "clv": 0.0,
+      "profit": 0.55
+    },
+    {
+      "match_id": "understat:27617",
+      "sel": "HOME",
+      "edge": 0.04475870461773679,
+      "clv": -0.060150375939849676,
+      "profit": 0.33000000000000007
+    },
+    {
+      "match_id": "understat:27229",
+      "sel": "HOME",
+      "edge": 0.02250444372660454,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:26862",
+      "sel": "DRAW",
+      "edge": 0.051638849712249135,
+      "clv": 0.0,
+      "profit": 2.7
+    },
+    {
+      "match_id": "understat:26865",
+      "sel": "AWAY",
+      "edge": 0.03493964218017814,
+      "clv": 0.0,
+      "profit": 1.0
+    },
+    {
+      "match_id": "understat:26871",
+      "sel": "HOME",
+      "edge": 0.021960145955040478,
+      "clv": 0.0,
+      "profit": 0.53
+    },
+    {
+      "match_id": "understat:26870",
+      "sel": "HOME",
+      "edge": 0.048580662638409544,
+      "clv": 0.0,
+      "profit": 0.5
+    },
+    {
+      "match_id": "understat:27442",
+      "sel": "DRAW",
+      "edge": 0.020196776747346157,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27949",
+      "sel": "AWAY",
+      "edge": 0.08086510876980235,
+      "clv": 0.0,
+      "profit": 0.6499999999999999
+    },
+    {
+      "match_id": "understat:27624",
+      "sel": "DRAW",
+      "edge": 0.049508764557719964,
+      "clv": -0.05882352941176463,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28262",
+      "sel": "HOME",
+      "edge": 0.08925576465012586,
+      "clv": 0.0,
+      "profit": 0.3799999999999999
+    },
+    {
+      "match_id": "understat:27239",
+      "sel": "DRAW",
+      "edge": 0.06305346005584817,
+      "clv": 0.0,
+      "profit": 2.2
+    },
+    {
+      "match_id": "understat:27237",
+      "sel": "DRAW",
+      "edge": 0.03458561192081411,
+      "clv": 0.0,
+      "profit": 2.5
+    },
+    {
+      "match_id": "understat:27952",
+      "sel": "AWAY",
+      "edge": 0.02414187922164379,
+      "clv": 0.0,
+      "profit": 1.25
+    },
+    {
+      "match_id": "understat:27953",
+      "sel": "DRAW",
+      "edge": 0.06029710132952443,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27956",
+      "sel": "AWAY",
+      "edge": 0.06651105980216321,
+      "clv": 0.0,
+      "profit": 0.8300000000000001
+    },
+    {
+      "match_id": "understat:28259",
+      "sel": "AWAY",
+      "edge": 0.06014547998542197,
+      "clv": 0.0,
+      "profit": 0.6699999999999999
+    },
+    {
+      "match_id": "understat:27629",
+      "sel": "DRAW",
+      "edge": 0.021855902748880884,
+      "clv": -0.03125000000000003,
+      "profit": 2.2
+    },
+    {
+      "match_id": "understat:27233",
+      "sel": "AWAY",
+      "edge": 0.024443445318258816,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27631",
+      "sel": "DRAW",
+      "edge": 0.08461916381133333,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28255",
+      "sel": "HOME",
+      "edge": 0.04831230824728716,
+      "clv": 0.0,
+      "profit": 0.3999999999999999
+    },
+    {
+      "match_id": "understat:27623",
+      "sel": "HOME",
+      "edge": 0.025043312659354555,
+      "clv": 0.08280254777070056,
+      "profit": 0.5700000000000001
+    },
+    {
+      "match_id": "understat:27625",
+      "sel": "HOME",
+      "edge": 0.045379807476683076,
+      "clv": -0.005235602094240842,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28257",
+      "sel": "HOME",
+      "edge": 0.04299720022127396,
+      "clv": 0.0,
+      "profit": 0.6499999999999999
+    },
+    {
+      "match_id": "understat:27955",
+      "sel": "DRAW",
+      "edge": 0.06245377041276651,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27232",
+      "sel": "HOME",
+      "edge": 0.04883635130827191,
+      "clv": 0.0,
+      "profit": 0.25
+    },
+    {
+      "match_id": "understat:28258",
+      "sel": "AWAY",
+      "edge": 0.03407562149502019,
+      "clv": 0.0,
+      "profit": 1.1
+    },
+    {
+      "match_id": "understat:28261",
+      "sel": "AWAY",
+      "edge": 0.020077457866271464,
+      "clv": 0.0,
+      "profit": 1.5
+    },
+    {
+      "match_id": "understat:28263",
+      "sel": "AWAY",
+      "edge": 0.05740896740506651,
+      "clv": 0.0,
+      "profit": 1.35
+    },
+    {
+      "match_id": "understat:28256",
+      "sel": "HOME",
+      "edge": 0.0763451513888137,
+      "clv": 0.0,
+      "profit": 0.3999999999999999
+    },
+    {
+      "match_id": "understat:27234",
+      "sel": "AWAY",
+      "edge": 0.021990833114868935,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28267",
+      "sel": "AWAY",
+      "edge": 0.12748032462294145,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27246",
+      "sel": "HOME",
+      "edge": 0.05113140208610922,
+      "clv": 0.0,
+      "profit": 0.55
+    },
+    {
+      "match_id": "understat:27633",
+      "sel": "DRAW",
+      "edge": 0.05415726143157232,
+      "clv": 0.026315789473684237,
+      "profit": 2.8
+    },
+    {
+      "match_id": "understat:27641",
+      "sel": "AWAY",
+      "edge": 0.02441855123930209,
+      "clv": -0.062499999999999965,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27958",
+      "sel": "HOME",
+      "edge": 0.04085652962407449,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27960",
+      "sel": "HOME",
+      "edge": 0.03890438260745044,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27966",
+      "sel": "AWAY",
+      "edge": 0.03523193559467108,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:26875",
+      "sel": "HOME",
+      "edge": 0.03781129771601788,
+      "clv": 0.0,
+      "profit": 0.44999999999999996
+    },
+    {
+      "match_id": "understat:28271",
+      "sel": "AWAY",
+      "edge": 0.1272596466789897,
+      "clv": 0.0,
+      "profit": 0.7
+    },
+    {
+      "match_id": "understat:27639",
+      "sel": "AWAY",
+      "edge": 0.06921862115301458,
+      "clv": 0.0285714285714286,
+      "profit": 0.75
+    },
+    {
+      "match_id": "understat:26872",
+      "sel": "AWAY",
+      "edge": 0.043801100714022156,
+      "clv": 0.0,
+      "profit": 1.9
+    },
+    {
+      "match_id": "understat:27248",
+      "sel": "HOME",
+      "edge": 0.07505476427354019,
+      "clv": 0.0,
+      "profit": 0.3799999999999999
+    },
+    {
+      "match_id": "understat:28270",
+      "sel": "DRAW",
+      "edge": 0.029168458484374132,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:26881",
+      "sel": "AWAY",
+      "edge": 0.03795599102389596,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28272",
+      "sel": "HOME",
+      "edge": 0.08996246194805158,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27635",
+      "sel": "AWAY",
+      "edge": 0.0524222659339183,
+      "clv": -0.011428571428571439,
+      "profit": 0.75
+    },
+    {
+      "match_id": "understat:27250",
+      "sel": "HOME",
+      "edge": 0.020766813240470527,
+      "clv": 0.0,
+      "profit": 3.5
+    },
+    {
+      "match_id": "understat:26879",
+      "sel": "AWAY",
+      "edge": 0.03520527438244464,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28269",
+      "sel": "HOME",
+      "edge": 0.04652772439843156,
+      "clv": 0.0,
+      "profit": 0.73
+    },
+    {
+      "match_id": "understat:27961",
+      "sel": "DRAW",
+      "edge": 0.05848182463527005,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27251",
+      "sel": "HOME",
+      "edge": 0.028159120557195827,
+      "clv": 0.0,
+      "profit": 0.29000000000000004
+    },
+    {
+      "match_id": "understat:28264",
+      "sel": "AWAY",
+      "edge": 0.039235506739597414,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28265",
+      "sel": "DRAW",
+      "edge": 0.03200208568754531,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:26877",
+      "sel": "AWAY",
+      "edge": 0.030135735223856153,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27962",
+      "sel": "DRAW",
+      "edge": 0.1206376306336597,
+      "clv": 0.0,
+      "profit": 3.0
+    },
+    {
+      "match_id": "understat:27245",
+      "sel": "HOME",
+      "edge": 0.054023520053013696,
+      "clv": 0.0,
+      "profit": 0.41999999999999993
+    },
+    {
+      "match_id": "understat:27637",
+      "sel": "DRAW",
+      "edge": 0.035220512610261656,
+      "clv": -0.04615384615384613,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28268",
+      "sel": "HOME",
+      "edge": 0.023508591741033202,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27247",
+      "sel": "DRAW",
+      "edge": 0.03771526033021316,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:26880",
+      "sel": "AWAY",
+      "edge": 0.07632973726355308,
+      "clv": 0.0,
+      "profit": 1.2000000000000002
+    },
+    {
+      "match_id": "understat:27242",
+      "sel": "AWAY",
+      "edge": 0.043620705242430446,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27646",
+      "sel": "DRAW",
+      "edge": 0.029892192883710256,
+      "clv": 0.03448275862068969,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28274",
+      "sel": "HOME",
+      "edge": 0.03552268443205475,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27260",
+      "sel": "DRAW",
+      "edge": 0.025293340994698987,
+      "clv": 0.0,
+      "profit": 2.0
+    },
+    {
+      "match_id": "understat:27642",
+      "sel": "DRAW",
+      "edge": 0.06040168523557943,
+      "clv": 0.08333333333333333,
+      "profit": 2.0
+    },
+    {
+      "match_id": "understat:27650",
+      "sel": "DRAW",
+      "edge": 0.0270641067401593,
+      "clv": -0.0285714285714286,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27970",
+      "sel": "DRAW",
+      "edge": 0.06162151036640762,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27971",
+      "sel": "DRAW",
+      "edge": 0.022679690878166348,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27973",
+      "sel": "AWAY",
+      "edge": 0.05337955892544055,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:26885",
+      "sel": "DRAW",
+      "edge": 0.032941460444988635,
+      "clv": 0.0,
+      "profit": 2.2
+    },
+    {
+      "match_id": "understat:26887",
+      "sel": "AWAY",
+      "edge": 0.051981292837770976,
+      "clv": 0.0,
+      "profit": 1.0
+    },
+    {
+      "match_id": "understat:26889",
+      "sel": "HOME",
+      "edge": 0.0423042235493265,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:26891",
+      "sel": "AWAY",
+      "edge": 0.03401362018511511,
+      "clv": 0.0,
+      "profit": 1.0
+    },
+    {
+      "match_id": "understat:27261",
+      "sel": "HOME",
+      "edge": 0.036396701365807416,
+      "clv": 0.0,
+      "profit": 0.77
+    },
+    {
+      "match_id": "understat:28280",
+      "sel": "AWAY",
+      "edge": 0.04690134829674103,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27647",
+      "sel": "DRAW",
+      "edge": 0.06377575709921846,
+      "clv": 0.041666666666666644,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:26882",
+      "sel": "HOME",
+      "edge": 0.023107179753517948,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28281",
+      "sel": "AWAY",
+      "edge": 0.09376655858391081,
+      "clv": 0.0,
+      "profit": 0.41999999999999993
+    },
+    {
+      "match_id": "understat:27649",
+      "sel": "DRAW",
+      "edge": 0.07469322254452893,
+      "clv": -0.030303030303030196,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27253",
+      "sel": "DRAW",
+      "edge": 0.037751494242105166,
+      "clv": 0.0,
+      "profit": 2.5
+    },
+    {
+      "match_id": "understat:28278",
+      "sel": "DRAW",
+      "edge": 0.026548552537503378,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27651",
+      "sel": "AWAY",
+      "edge": 0.09441550976695523,
+      "clv": -0.03267973856209153,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:26886",
+      "sel": "DRAW",
+      "edge": 0.07462007154082217,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27645",
+      "sel": "HOME",
+      "edge": 0.025675522895473035,
+      "clv": -0.062499999999999965,
+      "profit": 1.4
+    },
+    {
+      "match_id": "understat:27974",
+      "sel": "AWAY",
+      "edge": 0.08398812557694246,
+      "clv": 0.0,
+      "profit": 1.2000000000000002
+    },
+    {
+      "match_id": "understat:28276",
+      "sel": "HOME",
+      "edge": 0.08862005469373346,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28279",
+      "sel": "HOME",
+      "edge": 0.030115746665079046,
+      "clv": 0.0,
+      "profit": 1.25
+    },
+    {
+      "match_id": "understat:27258",
+      "sel": "HOME",
+      "edge": 0.025791348608847298,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:26888",
+      "sel": "AWAY",
+      "edge": 0.02447906141669043,
+      "clv": 0.0,
+      "profit": 0.8300000000000001
+    },
+    {
+      "match_id": "understat:27643",
+      "sel": "AWAY",
+      "edge": 0.03397358986989518,
+      "clv": 0.0,
+      "profit": 1.7999999999999998
+    },
+    {
+      "match_id": "understat:28273",
+      "sel": "HOME",
+      "edge": 0.030416327411739608,
+      "clv": 0.0,
+      "profit": 0.44999999999999996
+    },
+    {
+      "match_id": "understat:27244",
+      "sel": "HOME",
+      "edge": 0.02112618169043501,
+      "clv": 0.0,
+      "profit": 0.29000000000000004
+    },
+    {
+      "match_id": "understat:27976",
+      "sel": "DRAW",
+      "edge": 0.046536355765503634,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28285",
+      "sel": "AWAY",
+      "edge": 0.04507627077046239,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27652",
+      "sel": "DRAW",
+      "edge": 0.03436003257953907,
+      "clv": 0.03030303030303033,
+      "profit": 2.3
+    },
+    {
+      "match_id": "understat:27653",
+      "sel": "AWAY",
+      "edge": 0.10251494377225945,
+      "clv": 0.0285714285714286,
+      "profit": 0.75
+    },
+    {
+      "match_id": "understat:27981",
+      "sel": "DRAW",
+      "edge": 0.07711849568148588,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27983",
+      "sel": "DRAW",
+      "edge": 0.03271300710777647,
+      "clv": 0.0,
+      "profit": 2.3
+    },
+    {
+      "match_id": "understat:27984",
+      "sel": "AWAY",
+      "edge": 0.07220474499709884,
+      "clv": 0.0,
+      "profit": 1.0499999999999998
+    },
+    {
+      "match_id": "understat:28288",
+      "sel": "AWAY",
+      "edge": 0.10668981424561552,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27659",
+      "sel": "DRAW",
+      "edge": 0.06489783634418647,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27266",
+      "sel": "HOME",
+      "edge": 0.020991352629369908,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28287",
+      "sel": "HOME",
+      "edge": 0.02774832100000528,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27657",
+      "sel": "AWAY",
+      "edge": 0.06059216170963111,
+      "clv": -0.0285714285714286,
+      "profit": 0.75
+    },
+    {
+      "match_id": "understat:27658",
+      "sel": "DRAW",
+      "edge": 0.08760215508376662,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27661",
+      "sel": "AWAY",
+      "edge": 0.03423472209368106,
+      "clv": -0.02439024390243894,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28286",
+      "sel": "HOME",
+      "edge": 0.02342874132129452,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27270",
+      "sel": "HOME",
+      "edge": 0.05396601917954835,
+      "clv": 0.0,
+      "profit": 0.25
+    },
+    {
+      "match_id": "understat:28282",
+      "sel": "AWAY",
+      "edge": 0.09506323789774807,
+      "clv": 0.0,
+      "profit": 0.8200000000000001
+    },
+    {
+      "match_id": "understat:28283",
+      "sel": "DRAW",
+      "edge": 0.03175187497943896,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:28284",
+      "sel": "AWAY",
+      "edge": 0.0681150830954319,
+      "clv": 0.0,
+      "profit": -1.0
+    },
+    {
+      "match_id": "understat:27654",
+      "sel": "DRAW",
+      "edge": 0.027836661651465144,
+      "clv": -0.0540540540540541,
+      "profit": -1.0
+    }
+  ]
+}

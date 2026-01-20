@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-01-19T15:18:22.733418Z",
+  "league": "Serie_A",
+  "seasons": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "features_version": "understat_v5",
+  "segments": {
+    "phase": {
+      "mid": {
+        "matches": 697,
+        "picks": 697,
+        "roi": -0.03624103299856528,
+        "avg_clv": 0.0066336456862511285,
+        "logloss_1x2": 1.071836838449458,
+        "clv_samples": 697
+      },
+      "early": {
+        "matches": 185,
+        "picks": 185,
+        "roi": -0.0005945945945945903,
+        "avg_clv": 0.011589522437277712,
+        "logloss_1x2": 1.0373647464139257,
+        "clv_samples": 185
+      },
+      "late": {
+        "matches": 479,
+        "picks": 479,
+        "roi": 0.08173277661795408,
+        "avg_clv": 0.010029253952157697,
+        "logloss_1x2": 1.0748733645899027,
+        "clv_samples": 479
+      }
+    },
+    "strength": {
+      "balanced": {
+        "matches": 1211,
+        "picks": 1211,
+        "roi": -0.01530966143682908,
+        "avg_clv": 0.008533256699075018,
+        "logloss_1x2": 1.0692946583764633,
+        "clv_samples": 1211
+      },
+      "home_fav": {
+        "matches": 87,
+        "picks": 87,
+        "roi": 0.2149425287356322,
+        "avg_clv": 0.0067433033700611865,
+        "logloss_1x2": 1.0130922790936765,
+        "clv_samples": 87
+      },
+      "away_fav": {
+        "matches": 63,
+        "picks": 63,
+        "roi": 0.2161904761904762,
+        "avg_clv": 0.010337842563837777,
+        "logloss_1x2": 1.1236862944343664,
+        "clv_samples": 63
+      }
+    },
+    "big_small": {
+      "mid_vs_mid": {
+        "matches": 857,
+        "picks": 857,
+        "roi": -0.0019253208868144518,
+        "avg_clv": 0.006482770096543541,
+        "logloss_1x2": 1.0577205025513714,
+        "clv_samples": 857
+      },
+      "small_vs_small": {
+        "matches": 356,
+        "picks": 356,
+        "roi": -0.04499999999999998,
+        "avg_clv": 0.01351280959282383,
+        "logloss_1x2": 1.0974592748807694,
+        "clv_samples": 356
+      },
+      "big_vs_small": {
+        "matches": 148,
+        "picks": 148,
+        "roi": 0.21250000000000002,
+        "avg_clv": 0.008144805064282779,
+        "logloss_1x2": 1.0586832674346802,
+        "clv_samples": 148
+      }
+    },
+    "rest_adv": {
+      "even_rest": {
+        "matches": 1299,
+        "picks": 1299,
+        "roi": 0.014133949191685934,
+        "avg_clv": 0.008983235044283115,
+        "logloss_1x2": 1.0674234166216716,
+        "clv_samples": 1299
+      },
+      "home_rest_adv": {
+        "matches": 30,
+        "picks": 30,
+        "roi": -0.07899999999999997,
+        "avg_clv": 0.019904292972520245,
+        "logloss_1x2": 1.0677245879801918,
+        "clv_samples": 30
+      },
+      "away_rest_adv": {
+        "matches": 32,
+        "picks": 32,
+        "roi": -0.06906249999999997,
+        "avg_clv": -0.021707055450075747,
+        "logloss_1x2": 1.1010106341704615,
+        "clv_samples": 32
+      }
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "generated_at": "2026-01-19T16:43:45.257347Z",
+  "split_date": "2024-07-01",
+  "features_version": "understat_v5",
+  "by_league": {
+    "Serie_A": {
+      "split_date": "2024-07-01",
+      "features_version": "understat_v5",
+      "dc_rho": 0.04,
+      "temp_scale_1x2": 1.15,
+      "temp_train_logloss_1x2": 1.0494760186914374,
+      "train_counts": {
+        "home_win": 947,
+        "draw": 947,
+        "away_win": 947,
+        "over_2_5": 947,
+        "under_2_5": 947,
+        "btts_yes": 947,
+        "btts_no": 947
+      },
+      "test_counts": {
+        "home_win": 455,
+        "draw": 455,
+        "away_win": 455,
+        "over_2_5": 455,
+        "under_2_5": 455,
+        "btts_yes": 455,
+        "btts_no": 455
+      },
+      "test_logloss_1x2": 1.0417414507823064,
+      "test_logloss_1x2_calibrated": 1.0599215026689899,
+      "test_logloss_1x2_temp": 1.0424492271865775,
+      "test_brier": {
+        "home_win": 0.22074615895364702,
+        "draw": 0.19899592907425367,
+        "away_win": 0.20601794125993833,
+        "over_2_5": 0.2553373129884656,
+        "under_2_5": 0.2553373129884656,
+        "btts_yes": 0.25843420529628514,
+        "btts_no": 0.25843420529628514
+      },
+      "test_brier_calibrated": {
+        "home_win": 0.2249534464770465,
+        "draw": 0.19939184557865128,
+        "away_win": 0.21443591568310252,
+        "over_2_5": 0.24857398785420448,
+        "under_2_5": 0.24857398785420448,
+        "btts_yes": 0.2519810180981652,
+        "btts_no": 0.2519810180981652
+      },
+      "test_brier_temp_1x2": {
+        "home_win": 0.22115888681514587,
+        "draw": 0.19836540483510992,
+        "away_win": 0.20695196590842818
+      }
+    },
+    "EPL": {
+      "split_date": "2024-07-01",
+      "features_version": "understat_v5",
+      "dc_rho": -0.03,
+      "temp_scale_1x2": 1.0,
+      "temp_train_logloss_1x2": 1.0179864707234862,
+      "train_counts": {
+        "home_win": 954,
+        "draw": 954,
+        "away_win": 954,
+        "over_2_5": 954,
+        "under_2_5": 954,
+        "btts_yes": 954,
+        "btts_no": 954
+      },
+      "test_counts": {
+        "home_win": 479,
+        "draw": 479,
+        "away_win": 479,
+        "over_2_5": 479,
+        "under_2_5": 479,
+        "btts_yes": 479,
+        "btts_no": 479
+      },
+      "test_logloss_1x2": 1.0338946325233769,
+      "test_logloss_1x2_calibrated": 1.0471937737632038,
+      "test_logloss_1x2_temp": 1.0338946325233769,
+      "test_brier": {
+        "home_win": 0.2321859532555913,
+        "draw": 0.18351904459704396,
+        "away_win": 0.20501540990319908,
+        "over_2_5": 0.2513073140135629,
+        "under_2_5": 0.2513073140135629,
+        "btts_yes": 0.25422723012105314,
+        "btts_no": 0.25422723012105314
+      },
+      "test_brier_calibrated": {
+        "home_win": 0.23628383160821848,
+        "draw": 0.18353982159520188,
+        "away_win": 0.21189525409303533,
+        "over_2_5": 0.24754174563470188,
+        "under_2_5": 0.24754174563470188,
+        "btts_yes": 0.24971527789690715,
+        "btts_no": 0.24971527789690715
+      },
+      "test_brier_temp_1x2": {
+        "home_win": 0.2321859532555913,
+        "draw": 0.18351904459704396,
+        "away_win": 0.20501540990319908
+      }
+    },
+    "Bundesliga": {
+      "split_date": "2024-07-01",
+      "features_version": "understat_v5",
+      "dc_rho": -0.08,
+      "temp_scale_1x2": 1.1,
+      "temp_train_logloss_1x2": 1.0331601839730524,
+      "train_counts": {
+        "home_win": 752,
+        "draw": 752,
+        "away_win": 752,
+        "over_2_5": 752,
+        "under_2_5": 752,
+        "btts_yes": 752,
+        "btts_no": 752
+      },
+      "test_counts": {
+        "home_win": 351,
+        "draw": 351,
+        "away_win": 351,
+        "over_2_5": 351,
+        "under_2_5": 351,
+        "btts_yes": 351,
+        "btts_no": 351
+      },
+      "test_logloss_1x2": 1.0493172904196455,
+      "test_logloss_1x2_calibrated": 1.0661862629246481,
+      "test_logloss_1x2_temp": 1.047635570803996,
+      "test_brier": {
+        "home_win": 0.2322186386242587,
+        "draw": 0.19625685929973186,
+        "away_win": 0.2037722871293814,
+        "over_2_5": 0.24821725503915598,
+        "under_2_5": 0.24821725503915598,
+        "btts_yes": 0.256500578709348,
+        "btts_no": 0.256500578709348
+      },
+      "test_brier_calibrated": {
+        "home_win": 0.2395747481816861,
+        "draw": 0.19541882202214444,
+        "away_win": 0.21106675841632486,
+        "over_2_5": 0.24711087328511508,
+        "under_2_5": 0.24711087328511508,
+        "btts_yes": 0.24967917872880832,
+        "btts_no": 0.24967917872880832
+      },
+      "test_brier_temp_1x2": {
+        "home_win": 0.2312766139121885,
+        "draw": 0.1957198402738039,
+        "away_win": 0.20410865796031505
+      }
+    },
+    "La_Liga": {
+      "split_date": "2024-07-01",
+      "features_version": "understat_v5",
+      "dc_rho": 0.06,
+      "temp_scale_1x2": 1.25,
+      "temp_train_logloss_1x2": 1.0460277445442683,
+      "train_counts": {
+        "home_win": 944,
+        "draw": 944,
+        "away_win": 944,
+        "over_2_5": 944,
+        "under_2_5": 944,
+        "btts_yes": 944,
+        "btts_no": 944
+      },
+      "test_counts": {
+        "home_win": 446,
+        "draw": 446,
+        "away_win": 446,
+        "over_2_5": 446,
+        "under_2_5": 446,
+        "btts_yes": 446,
+        "btts_no": 446
+      },
+      "test_logloss_1x2": 1.0415607698672815,
+      "test_logloss_1x2_calibrated": 1.0480570736019752,
+      "test_logloss_1x2_temp": 1.039360518236436,
+      "test_brier": {
+        "home_win": 0.23836348743113386,
+        "draw": 0.18275162036688247,
+        "away_win": 0.20604480600940203,
+        "over_2_5": 0.25815668424561883,
+        "under_2_5": 0.25815668424561883,
+        "btts_yes": 0.2556025876100351,
+        "btts_no": 0.2556025876100351
+      },
+      "test_brier_calibrated": {
+        "home_win": 0.24052266148658205,
+        "draw": 0.18378353928140523,
+        "away_win": 0.20705262426910112,
+        "over_2_5": 0.25266280817345815,
+        "under_2_5": 0.2526628081734582,
+        "btts_yes": 0.25658046346035535,
+        "btts_no": 0.25658046346035535
+      },
+      "test_brier_temp_1x2": {
+        "home_win": 0.23762392312050093,
+        "draw": 0.18215227582407684,
+        "away_win": 0.20563735994617077
+      }
+    },
+    "Ligue_1": {
+      "split_date": "2024-07-01",
+      "features_version": "understat_v5",
+      "dc_rho": 0.03,
+      "temp_scale_1x2": 1.2000000000000002,
+      "temp_train_logloss_1x2": 1.0533169911119458,
+      "train_counts": {
+        "home_win": 881,
+        "draw": 881,
+        "away_win": 881,
+        "over_2_5": 881,
+        "under_2_5": 881,
+        "btts_yes": 881,
+        "btts_no": 881
+      },
+      "test_counts": {
+        "home_win": 353,
+        "draw": 353,
+        "away_win": 353,
+        "over_2_5": 353,
+        "under_2_5": 353,
+        "btts_yes": 353,
+        "btts_no": 353
+      },
+      "test_logloss_1x2": 1.0143225773935367,
+      "test_logloss_1x2_calibrated": 1.0186586816389995,
+      "test_logloss_1x2_temp": 1.0155628097712934,
+      "test_brier": {
+        "home_win": 0.2341980324810019,
+        "draw": 0.16335202347820715,
+        "away_win": 0.21016001560862949,
+        "over_2_5": 0.2658300964746826,
+        "under_2_5": 0.2658300964746826,
+        "btts_yes": 0.25322780979532095,
+        "btts_no": 0.25322780979532095
+      },
+      "test_brier_calibrated": {
+        "home_win": 0.23620385637563507,
+        "draw": 0.16288807709704473,
+        "away_win": 0.21202435971302708,
+        "over_2_5": 0.2512615811552094,
+        "under_2_5": 0.2512615811552094,
+        "btts_yes": 0.247813726012158,
+        "btts_no": 0.247813726012158
+      },
+      "test_brier_temp_1x2": {
+        "home_win": 0.23515569036543812,
+        "draw": 0.16375818245892604,
+        "away_win": 0.20988871735193076
+      }
+    }
+  },
+  "errors": {}
+}

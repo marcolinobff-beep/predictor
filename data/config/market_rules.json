@@ -1,0 +1,14 @@
+{
+  "min_edge": 0.015,
+  "max_picks": 3,
+  "max_ci_width": 0.06,
+  "kelly_fraction": 0.25,
+  "stake_cap_fraction": 0.02,
+  "max_model_market_gap": 0.12,
+  "longshot_odds": 5.0,
+  "min_edge_longshot": 0.08,
+  "max_odds": 6.0,
+  "min_books": 2,
+  "max_odds_age_hours": 12,
+  "min_model_confidence": 0.45
+}

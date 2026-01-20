@@ -1,0 +1,19 @@
+{
+  "n": 7422,
+  "train": {
+    "n": 5938,
+    "logloss_model": 0.9608965740013086
+  },
+  "test": {
+    "n": 1484,
+    "logloss_model": 0.9744380196220486,
+    "logloss_market_baseline": 0.9706773142222279,
+    "logloss_improvement_vs_market": -0.003760705399820652
+  },
+  "trained_at_utc": "2026-01-20T00:06:50.807926Z",
+  "features_version": "understat_v5",
+  "notes": [
+    "Questo modello usa le quote (1X2) come baseline e impara un piccolo aggiustamento usando feature Understat v5 (xG form, Elo, rest days, schedule).",
+    "Split random (MVP). Per walk-forward usa step1 che genera report/gate."
+  ]
+}

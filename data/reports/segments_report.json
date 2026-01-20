@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-01-18T23:58:53.179019Z",
+  "league": "Serie_A",
+  "seasons": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "features_version": "understat_v5",
+  "segments": {
+    "phase": {
+      "early": {
+        "matches": 197,
+        "logloss_1x2": 1.0321500325220716,
+        "brier_home": 0.2402289656341033,
+        "brier_draw": 0.17090962209912638,
+        "brier_away": 0.21397315559742486
+      },
+      "mid": {
+        "matches": 711,
+        "logloss_1x2": 1.0704332292740586,
+        "brier_home": 0.23416892774061487,
+        "brier_draw": 0.1955347641515578,
+        "brier_away": 0.2180190152117876
+      },
+      "late": {
+        "matches": 494,
+        "logloss_1x2": 1.077035944396151,
+        "brier_home": 0.23636604430090324,
+        "brier_draw": 0.20198140303791554,
+        "brier_away": 0.2141352186676805
+      }
+    },
+    "strength": {
+      "balanced": {
+        "matches": 1249,
+        "logloss_1x2": 1.068547333730061,
+        "brier_home": 0.23419062226759657,
+        "brier_draw": 0.1955082155186494,
+        "brier_away": 0.21724632842877697
+      },
+      "home_fav": {
+        "matches": 89,
+        "logloss_1x2": 1.0116035734385445,
+        "brier_home": 0.2880238420081286,
+        "brier_draw": 0.1787572783470579,
+        "brier_away": 0.1393070329930038
+      },
+      "away_fav": {
+        "matches": 64,
+        "logloss_1x2": 1.1221718919925867,
+        "brier_home": 0.19446610292484626,
+        "brier_draw": 0.19334479703647664,
+        "brier_away": 0.3001256147841893
+      }
+    },
+    "big_small": {
+      "mid_vs_mid": {
+        "matches": 886,
+        "logloss_1x2": 1.0566806005547262,
+        "brier_home": 0.2355099034702365,
+        "brier_draw": 0.18233798616886268,
+        "brier_away": 0.22169227461307817
+      },
+      "small_vs_small": {
+        "matches": 365,
+        "logloss_1x2": 1.0976513670891535,
+        "brier_home": 0.23112031178731884,
+        "brier_draw": 0.22690733249922926,
+        "brier_away": 0.20706701911796513
+      },
+      "big_vs_small": {
+        "matches": 151,
+        "logloss_1x2": 1.0569905819428724,
+        "brier_home": 0.24876391696119748,
+        "brier_draw": 0.18609664806744858,
+        "brier_away": 0.20495504771432668
+      }
+    },
+    "rest_adv": {
+      "even_rest": {
+        "matches": 1336,
+        "logloss_1x2": 1.06678769876199,
+        "brier_home": 0.23537097294212994,
+        "brier_draw": 0.19447395322978064,
+        "brier_away": 0.21601856397820213
+      },
+      "home_rest_adv": {
+        "matches": 31,
+        "logloss_1x2": 1.0650476559918731,
+        "brier_home": 0.24796953936592447,
+        "brier_draw": 0.19054443364871695,
+        "brier_away": 0.2045898491602066
+      },
+      "away_rest_adv": {
+        "matches": 35,
+        "logloss_1x2": 1.092071316303877,
+        "brier_home": 0.24118183334607016,
+        "brier_draw": 0.19283277165481577,
+        "brier_away": 0.22868407689324088
+      }
+    }
+  }
+}

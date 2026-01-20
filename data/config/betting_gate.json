@@ -1,0 +1,18 @@
+{
+  "enabled": false,
+  "reason": "NOT_ENOUGH_EDGE_OR_CV",
+  "updated_at_utc": "2026-01-20T00:07:57.412109Z",
+  "thresholds": {
+    "min_logloss_improvement_vs_market": 0.005,
+    "min_clv": 0.0,
+    "min_picks": 50
+  },
+  "evidence": {
+    "model_used": "stack",
+    "test_logloss_improvement_vs_market": 0.0031267158993886213,
+    "test_clv_avg": -0.004096456343676351,
+    "test_picks_n": 1093,
+    "test_roi_per_bet": 0.06855443732845377,
+    "split_cutoff_kickoff_utc": "2025-02-08T17:30:00Z"
+  }
+}

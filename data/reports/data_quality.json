@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-01-19T18:03:32.840493Z",
+  "features_version": "understat_v5",
+  "days_ahead": 7,
+  "stale_hours": 24,
+  "by_league": {
+    "Serie_A": {
+      "matches_total": 1900,
+      "features": {
+        "count": 1900,
+        "pct": 100.0
+      },
+      "tactical": {
+        "count": 1723,
+        "pct": 90.68
+      },
+      "lineups": {
+        "count": 6,
+        "pct": 0.32
+      },
+      "upcoming": {
+        "count": 11,
+        "with_lineups": 2,
+        "stale_or_missing_lineups": 9
+      },
+      "missing_results_past": 0,
+      "latest_result_utc": "2026-01-17T17:00:00Z",
+      "bad_lambda_count": null
+    },
+    "EPL": {
+      "matches_total": 1900,
+      "features": {
+        "count": 1900,
+        "pct": 100.0
+      },
+      "tactical": {
+        "count": 1739,
+        "pct": 91.53
+      },
+      "lineups": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "upcoming": {
+        "count": 10,
+        "with_lineups": 0,
+        "stale_or_missing_lineups": 10
+      },
+      "missing_results_past": 0,
+      "latest_result_utc": "2026-01-18T16:30:00Z",
+      "bad_lambda_count": null
+    },
+    "Bundesliga": {
+      "matches_total": 1530,
+      "features": {
+        "count": 1530,
+        "pct": 100.0
+      },
+      "tactical": {
+        "count": 1383,
+        "pct": 90.39
+      },
+      "lineups": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "upcoming": {
+        "count": 9,
+        "with_lineups": 0,
+        "stale_or_missing_lineups": 9
+      },
+      "missing_results_past": 3,
+      "latest_result_utc": "2026-01-18T16:30:00Z",
+      "bad_lambda_count": null
+    },
+    "La_Liga": {
+      "matches_total": 1900,
+      "features": {
+        "count": 1900,
+        "pct": 100.0
+      },
+      "tactical": {
+        "count": 1718,
+        "pct": 90.42
+      },
+      "lineups": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "upcoming": {
+        "count": 11,
+        "with_lineups": 0,
+        "stale_or_missing_lineups": 11
+      },
+      "missing_results_past": 1,
+      "latest_result_utc": "2026-01-18T20:00:00Z",
+      "bad_lambda_count": null
+    },
+    "Ligue_1": {
+      "matches_total": 1678,
+      "features": {
+        "count": 1678,
+        "pct": 100.0
+      },
+      "tactical": {
+        "count": 1534,
+        "pct": 91.42
+      },
+      "lineups": {
+        "count": 0,
+        "pct": 0.0
+      },
+      "upcoming": {
+        "count": 9,
+        "with_lineups": 0,
+        "stale_or_missing_lineups": 9
+      },
+      "missing_results_past": 0,
+      "latest_result_utc": "2026-01-18T19:45:00Z",
+      "bad_lambda_count": null
+    }
+  }
+}

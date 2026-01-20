@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-01-18T23:30:45.939252Z",
+  "league": "Serie_A",
+  "seasons": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "features_version": "understat_v5",
+  "min_picks": 300,
+  "grid": [
+    {
+      "min_edge": 0.01,
+      "picks": 1364,
+      "roi": 0.0070821114369501595
+    },
+    {
+      "min_edge": 0.015,
+      "picks": 1360,
+      "roi": 0.008661764705882369
+    },
+    {
+      "min_edge": 0.02,
+      "picks": 1356,
+      "roi": 0.005796460176991163
+    },
+    {
+      "min_edge": 0.025,
+      "picks": 1356,
+      "roi": 0.005796460176991163
+    },
+    {
+      "min_edge": 0.03,
+      "picks": 1349,
+      "roi": 0.005285396590066731
+    },
+    {
+      "min_edge": 0.035,
+      "picks": 1341,
+      "roi": 0.0036017897091722754
+    },
+    {
+      "min_edge": 0.04,
+      "picks": 1334,
+      "roi": 0.0019715142428785907
+    }
+  ],
+  "selected": {
+    "min_edge": 0.015,
+    "picks": 1360,
+    "roi": 0.008661764705882369
+  },
+  "output_rules_path": "data/config/market_rules.json"
+}

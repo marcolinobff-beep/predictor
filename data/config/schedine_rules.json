@@ -1,0 +1,21 @@
+{
+  "card_size": 3,
+  "markets": [
+    "1X2",
+    "OU_2.5"
+  ],
+  "min_edge": 0.015,
+  "easy": {
+    "min_prob": 0.54,
+    "max_odds": 2.1
+  },
+  "medium": {
+    "min_prob": 0.44,
+    "max_odds": 3.2
+  },
+  "hard": {
+    "min_prob": 0.34,
+    "min_odds": 3.2,
+    "max_odds": 6.0
+  }
+}
