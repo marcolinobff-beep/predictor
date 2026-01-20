@@ -1,0 +1,9 @@
+[
+  {"market": "1X2", "selection": "HOME", "odds_decimal": 3.90},
+  {"market": "1X2", "selection": "DRAW", "odds_decimal": 3.60},
+  {"market": "1X2", "selection": "AWAY", "odds_decimal": 2.05},
+  {"market": "OU_2.5", "selection": "OVER", "odds_decimal": 1.85},
+  {"market": "OU_2.5", "selection": "UNDER", "odds_decimal": 2.00},
+  {"market": "BTTS", "selection": "YES", "odds_decimal": 1.80},
+  {"market": "BTTS", "selection": "NO", "odds_decimal": 2.05}
+]

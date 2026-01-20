@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Gazzetta Serie A",
+    "url": "https://www.gazzetta.it/rss/serie-a.xml",
+    "reliability_score": 0.75
+  },
+  {
+    "name": "Gazzetta Calcio",
+    "url": "https://www.gazzetta.it/rss/calcio.xml",
+    "reliability_score": 0.7
+  },
+  {
+    "name": "ANSA Calcio",
+    "url": "https://www.ansa.it/sito/notizie/sport/calcio/calcio_rss.xml",
+    "reliability_score": 0.7
+  },
+  {
+    "name": "Football Italia",
+    "url": "https://www.football-italia.net/feed/",
+    "reliability_score": 0.6
+  },
+  {
+    "name": "BBC Sport Football",
+    "url": "http://feeds.bbci.co.uk/sport/football/rss.xml",
+    "reliability_score": 0.7
+  }
+]

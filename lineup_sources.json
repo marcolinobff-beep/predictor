@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Diretta.it (feed)",
+    "type": "diretta_feed",
+    "url": "https://www.diretta.it/calcio/italia/serie-a/",
+    "reliability_score": 0.82
+  },
+  {
+    "name": "Gazzetta Probabili",
+    "type": "html",
+    "url": "https://www.gazzetta.it/Calcio/prob_form/",
+    "reliability_score": 0.7
+  },
+  {
+    "name": "Sky Sport Probabili",
+    "type": "html",
+    "url": "https://sport.sky.it/calcio/serie-a/probabili-formazioni",
+    "reliability_score": 0.7
+  },
+  {
+    "name": "API-Football Lineups",
+    "type": "api",
+    "url": "https://v3.football.api-sports.io",
+    "reliability_score": 0.9
+  },
+  {
+    "name": "SportMonks Lineups",
+    "type": "api",
+    "url": "https://api.sportmonks.com/v3/football",
+    "reliability_score": 0.88
+  }
+]

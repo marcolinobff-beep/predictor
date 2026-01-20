@@ -1,0 +1,70 @@
+impoastazione settimanale per ottenere feature e dati
+cd C:\Users\marco\Progetti\chatbot
+.\.venv\Scripts\python.exe -m scripts.ingest_understat_league --league "Serie_A" --season 2025
+.\.venv\Scripts\python.exe -m scripts.build_features_understat_v1 --league "Serie_A" --season 2025 --window 5
+
+
+
+Piano MVP 14 giorni (milestone verificabili + backtest minimo)
+Giorni 1–2: Fondazioni riproducibili
+
+Repo + struttura cartelle + FastAPI online
+
+SQLite schema minimo: matches, team_features, snapshots, web_cache, audit_runs
+
+Endpoint GET /health, POST /v1/analyze che ritorna report con NO_BET quando manca tutto
+Verifica: chiamata curl produce JSON valido con audit.
+
+Giorni 3–4: Ingest storico + feature store locale
+
+Script ingest (anche solo 1 lega) in SQLite/parquet
+
+Feature rolling: ultimi N match → xG for/against, GF/GA, forma, rest days
+Verifica: get_match_context ritorna data_snapshot_id + features pieni.
+
+Giorni 5–6: Web intel con caching + reliability
+
+Caching TTL in SQLite: chiave (match_id, need, source_id)
+
+Parser odds base (anche 1 fonte iniziale) + reliability scoring statico (poi dinamico)
+Verifica: web_intel ritorna odds[] reali + sources[] con cache_hit.
+
+Giorni 7–9: Monte Carlo reale (NumPy) + audit meta
+
+Implementa run_match_simulation:
+
+input: parametri goal model (anche Poisson baseline) derivati da feature locali
+
+output: scoreline_topk + probs mercati base
+
+meta completo: simulation_id, n_sims, seed, model_version, timestamp, data_snapshot_id
+Verifica: stessa richiesta con stesso seed → stessi risultati.
+
+Giorni 10–11: Market evaluator (edge/EV + selezione + stake)
+
+Mapping mercati (1X2, OU2.5, BTTS) → fair probs
+
+Edge/EV + filtri (min_edge, uncertainty) + stake (kelly frazionario + cap)
+
+Output max 3 o NO BET
+Verifica: dataset di test con odds fisse → decisione deterministica.
+
+Giorni 12–13: Backtest minimo + calibrazione “sanity”
+
+Script scripts/backtest_min.py:
+
+split temporale
+
+metriche: logloss, brier
+
+calibrazione semplice (isotonic o Platt) solo se hai un modello probabilistico coerente
+
+Salva risultati in SQLite: backtests + curve calibration
+Verifica: report con metriche stampate + file salvati.
+
+Giorno 14: UI Streamlit + report leggibile
+
+Streamlit: input match, bottone “Analyze”, render JSON + sezioni (recommendations/no_bet + audit)
+
+Export report su file (JSON)
+Verifica: un click → report completo con audit + no numeri inventati.
