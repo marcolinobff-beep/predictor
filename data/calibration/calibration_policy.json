@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-01-19T16:43:53.131835Z",
+  "source": "data/reports/oos_backtest.json",
+  "split_date": "2024-07-01",
+  "min_delta": 0.0005,
+  "by_league": {
+    "Serie_A": {
+      "calibrate_1x2": false,
+      "base_logloss_1x2": 1.0417414507823064,
+      "cal_logloss_1x2": 1.0599215026689899
+    },
+    "EPL": {
+      "calibrate_1x2": false,
+      "base_logloss_1x2": 1.0338946325233769,
+      "cal_logloss_1x2": 1.0471937737632038
+    },
+    "Bundesliga": {
+      "calibrate_1x2": false,
+      "base_logloss_1x2": 1.0493172904196455,
+      "cal_logloss_1x2": 1.0661862629246481
+    },
+    "La_Liga": {
+      "calibrate_1x2": false,
+      "base_logloss_1x2": 1.0415607698672815,
+      "cal_logloss_1x2": 1.0480570736019752
+    },
+    "Ligue_1": {
+      "calibrate_1x2": false,
+      "base_logloss_1x2": 1.0143225773935367,
+      "cal_logloss_1x2": 1.0186586816389995
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-01-19T16:26:02.840828Z",
+  "by_league": {
+    "Serie_A": {
+      "version": "dc_rho_v1",
+      "generated_at": "2026-01-19T16:25:11.450416Z",
+      "league": "Serie_A",
+      "seasons": [
+        2025,
+        2024
+      ],
+      "features_version": "understat_v5",
+      "rho": 0.04,
+      "log_likelihood": -1289.5658145980453,
+      "cap": 8,
+      "samples": 455,
+      "grid": {
+        "min": -0.2,
+        "max": 0.2,
+        "step": 0.01
+      }
+    },
+    "EPL": {
+      "version": "dc_rho_v1",
+      "generated_at": "2026-01-19T16:25:27.487945Z",
+      "league": "EPL",
+      "seasons": [
+        2025,
+        2024
+      ],
+      "features_version": "understat_v5",
+      "rho": -0.03,
+      "log_likelihood": -1456.1996947150328,
+      "cap": 8,
+      "samples": 479,
+      "grid": {
+        "min": -0.2,
+        "max": 0.2,
+        "step": 0.01
+      }
+    },
+    "Bundesliga": {
+      "version": "dc_rho_v1",
+      "generated_at": "2026-01-19T16:25:41.110716Z",
+      "league": "Bundesliga",
+      "seasons": [
+        2025,
+        2024
+      ],
+      "features_version": "understat_v5",
+      "rho": -0.08,
+      "log_likelihood": -1122.9162416706167,
+      "cap": 8,
+      "samples": 351,
+      "grid": {
+        "min": -0.2,
+        "max": 0.2,
+        "step": 0.01
+      }
+    },
+    "La_Liga": {
+      "version": "dc_rho_v1",
+      "generated_at": "2026-01-19T16:25:49.650331Z",
+      "league": "La_Liga",
+      "seasons": [
+        2025,
+        2024
+      ],
+      "features_version": "understat_v5",
+      "rho": 0.06,
+      "log_likelihood": -1297.6157770652455,
+      "cap": 8,
+      "samples": 446,
+      "grid": {
+        "min": -0.2,
+        "max": 0.2,
+        "step": 0.01
+      }
+    },
+    "Ligue_1": {
+      "version": "dc_rho_v1",
+      "generated_at": "2026-01-19T16:26:02.840828Z",
+      "league": "Ligue_1",
+      "seasons": [
+        2025,
+        2024
+      ],
+      "features_version": "understat_v5",
+      "rho": 0.03,
+      "log_likelihood": -1102.6308649517555,
+      "cap": 8,
+      "samples": 353,
+      "grid": {
+        "min": -0.2,
+        "max": 0.2,
+        "step": 0.01
+      }
+    }
+  }
+}
